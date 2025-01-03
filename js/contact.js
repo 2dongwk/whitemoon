@@ -48,9 +48,7 @@ function copyToClipboard(val) {
 $('.content').click(function(){
     copyToClipboard('whitemoon@white.moon')
 
-    if ($('.copy-text-wrapper').hasClass('animated')) {
-        return
-    } else {
+    if (!$('.copy-text-wrapper').hasClass('animated')) {
         $('.copy-text-wrapper').addClass('animated')
 
         gsap.to(".copy-text:nth-child(1)", 0.6, {
