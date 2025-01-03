@@ -24,7 +24,7 @@ $('nav a').mouseover(function(){
             x: comingSoonPositionX,
             xPercent: -30,
             y: comingSoonPositionY,
-            yPercent: 65,
+            yPercent: 70,
             display: 'block'
         })
         gsap.to(this, 0.1, {
