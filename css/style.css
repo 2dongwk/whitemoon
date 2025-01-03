@@ -116,13 +116,8 @@ footer {
         gap: 4vh;
     }
     
-    .band-name {
-        font-size: 3vh;
-    }
-    
-    .band-name div {
-        margin-bottom: 4vh;
-    }
+    .band-name { font-size: 3vh; }
+    .band-name div { margin-bottom: 4vh; }
 
     h1 {
         width: 10vh;
@@ -159,19 +154,14 @@ footer {
     .band-name-wrapper {
         width: max-content;
         position: absolute;
-        top: 10vh;
+        top: 8vh;
         left: 7vh;
         display: flex;
         gap: 4vh;
     }
     
-    .band-name {
-        font-size: 3vh;
-    }
-    
-    .band-name div {
-        margin-bottom: 4vh;
-    }
+    .band-name { font-size: 3vh; }
+    .band-name div { margin-bottom: 4vh; }
 
     h1 {
         width: 9vh;
