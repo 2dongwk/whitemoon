@@ -46,7 +46,7 @@ function copyToClipboard(val) {
 }
 
 $('.content').click(function(){
-    copyToClipboard('whitemoon@white.moon')
+    copyToClipboard('whitemoontheband@gmail.com')
 
     if (!$('.copy-text-wrapper').hasClass('animated')) {
         $('.copy-text-wrapper').addClass('animated')
