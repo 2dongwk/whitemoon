@@ -6,7 +6,7 @@ header {
     top: unset;
     left: unset;
     bottom: 62vh;
-    right: 32vh;
+    right: 27.5vh;
     transform: unset;
     display: block;
 }
@@ -22,11 +22,11 @@ nav {
     gap: unset;
     font-family: 'HALColant';
     font-size: 2.4vh;
-    letter-spacing: 1.4vh;
+    letter-spacing: 1vh;
 }
 
 nav a {
-    width: max-content;
+    width: fit-content;
     padding: 2.3vh 0 2.3vh 0;
     background: radial-gradient(circle, rgba(129, 114, 96, 1)20%, rgba(129, 114, 96, 1)60%);
 }
@@ -89,20 +89,20 @@ footer {
     width: fit-content;
     position: absolute;
     left: unset;
-    right: 10vh;
-    bottom: 6vh;
+    right: 9.5vh;
+    bottom: 10vh;
     transform: unset;
 }
 
 @media only screen and (max-width: 800px) and (min-width: 441px) {
     header {
         bottom: 46vh;
-        right: 20vh;
+        right: 18vh;
     }
 
     nav {
         font-size: 1.6vh;
-        letter-spacing: 0.8vh;
+        letter-spacing: 0.5vh;
     }
 
     nav a { padding: 1.7vh 0 1.7vh 0; }
@@ -128,25 +128,25 @@ footer {
     }
 
     footer {
-        right: 7.3vh;
+        right: 7.2vh;
         bottom: 8vh;
     }
 
     .copyright {
         font-size: 8px;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.2px;
     }
 }
 
 @media only screen and (max-width: 440px) and (min-width: 0px) {
     header {
         bottom: 44vh;
-        right: 18vh;
+        right: 16vh;
     }
 
     nav {
         font-size: 1.6vh;
-        letter-spacing: 0.8vh;
+        letter-spacing: 0.5vh;
     }
 
     nav a { padding: 1.7vh 0 1.7vh 0; }
@@ -172,12 +172,12 @@ footer {
     }
 
     footer {
-        right: 5.5vh;
+        right: 5.4vh;
         bottom: 8vh;
     }
 
     .copyright {
         font-size: 8px;
-        letter-spacing: 1.5px;
+        letter-spacing: 1.2px;
     }
 }

@@ -17,7 +17,7 @@ $('nav a').mouseover(function(){
     const navIndex = $(this).index()
     if ( navIndex === 0 || navIndex === 2 ) {
         const comingSoon = $('nav div')
-        const comingSoonPosition = $(this).position().left + ($(this).width() / 2)
+        const comingSoonPosition = $(this).position().left + ($(this).width() / 1.85)
         
         gsap.to(comingSoon, 0, {
             x: comingSoonPosition,
