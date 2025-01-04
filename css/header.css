@@ -70,11 +70,11 @@ img { display: block; width: 100%; }
     position: fixed;
     top: 0;
     left: 0;
-    background: url(../img/main_bg.jpg) no-repeat;
+    background: url(../img/main_bg.webp) no-repeat;
     background-size: cover;
     background-position: center;
-    filter: sepia(20%);
-    opacity: 0.5;
+    /* filter: sepia(20%);
+    opacity: 0.5; */
     z-index: -1;
 }
 
