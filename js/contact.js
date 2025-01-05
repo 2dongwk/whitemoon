@@ -12,6 +12,11 @@ $('.content').mouseenter(function(){
         scale: 0,
         ease: 'expo.out'
     })
+
+    gsap.to('.content', 0.2, {
+        scale: 1,
+        ease: 'expo.out'
+    })
 })
 
 $('.content').mousemove(function(e){

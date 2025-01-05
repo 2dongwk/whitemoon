@@ -10,7 +10,7 @@ gsap.ticker.add((time) => {
 
 gsap.ticker.lagSmoothing(0);
 
-$('nav a').mouseover(function(){
+function pointerOver() {
     gsap.to("nav a", 0.15, { opacity: 0.4 })
     gsap.to(this, 0.15, { opacity: 1 })
 
@@ -28,11 +28,16 @@ $('nav a').mouseover(function(){
             background: 'radial-gradient(circle, rgba(129, 114, 96, 0)20%, rgba(129, 114, 96, 1)60%)'
         })
     }
-}).mouseout(function(){
+}
+
+function pointerOut() {
     gsap.to(this, 0.1, {
         background: 'radial-gradient(circle, rgba(129, 114, 96, 1)20%, rgba(129, 114, 96, 1)60%)'
     })
 
     gsap.to("nav a", 0.15, { opacity: 0.8 })
     gsap.to("nav div", 0, { display: 'none' })
-})
+}
+
+$('nav a').mouseover(pointerOver).mouseout(pointerOut)
+
